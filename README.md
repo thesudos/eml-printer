@@ -44,7 +44,7 @@ Instead of waiting endlessly for manufacturer updates, this version has been dis
 - **The Fix**: Suppressed unnecessary footer toasts and elevated custom indicator badges with high Z-index clearance so they never obstruct clickable UI components.
 
 ### 5. Insecure Telemetry & Update Checkers Removed
-- **The Issue**: The vendor app routinely queried unencrypted HTTP endpoints (`http://8.129.44.110/...`) on launch, causing network latency and security concerns.
+- **The Issue**: The vendor app routinely queried unencrypted HTTP endpoints (`http://8.129.44.XXX/...`) on launch, causing network latency and security concerns.
 - **The Fix**: Neutralized unencrypted remote HTTP update queries for instant, offline-first application launch.
 
 ---
